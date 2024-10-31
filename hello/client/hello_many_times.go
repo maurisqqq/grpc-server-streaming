@@ -12,7 +12,7 @@ func doHelloManyTimes(c pb.HelloServiceClient) {
 	log.Println("doHelloManyTimes was invoked")
 
 	req := &pb.HelloRequest{
-		FirstName: "Clement",
+		FirstName: "Maulana",
 	}
 
 	stream, err := c.HelloManyTimes(context.Background(), req)
