@@ -2,8 +2,9 @@ package main
 
 import (
 	"context"
-	pb "grpc-unary/hello/proto"
 	"log"
+
+	pb "grpc-unary/hello/proto"
 )
 
 func (s *Server) Hello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloResponse, error) {
