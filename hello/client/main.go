@@ -21,6 +21,5 @@ func main() {
 	defer conn.Close()
 	c := pb.NewHelloServiceClient(conn)
 
-	//doHello(c)
 	doHelloManyTimes(c)
 }
