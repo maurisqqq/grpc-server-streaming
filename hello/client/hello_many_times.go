@@ -5,7 +5,7 @@ import (
 	"io"
 	"log"
 
-	pb "grpc-unary/hello/proto"
+	pb "grpc-server-streaming/hello/proto"
 )
 
 func doHelloManyTimes(c pb.HelloServiceClient) {

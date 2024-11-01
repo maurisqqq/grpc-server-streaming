@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "grpc-unary/hello/proto"
+	pb "grpc-server-streaming/hello/proto"
 )
 
 func (*Server) HelloManyTimes(in *pb.HelloRequest, stream pb.HelloService_HelloManyTimesServer) error {
