@@ -1,6 +1,6 @@
 # GRPC Server Streaming
 
-## Description
+## Overview
 Server streaming RPCs are where the client submits a request to the server and receives a stream to read a sequence of messages back.
 
 ### Visualization
